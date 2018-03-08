@@ -1,0 +1,106 @@
+
+div.relative{
+
+
+	margin: auto;
+    position: relative;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+	div.imagem {
+    
+	position: absolute;
+    top: 320px;
+    right: 350px;
+ 
+}
+*{margin: 0; padding: 0;}
+
+body{
+font-family: arial, helvetica, sans-serif;
+font-size: 14px;
+color: black;
+text-align: center;
+}
+
+.menu{
+list-style:none; 
+
+width:750px;
+margin:0 auto;
+font-weight: bold;
+
+}
+
+.menu li{
+position:relative; 
+float:left;
+border-right: 1px solid white; 
+border-left: 1px solid white; 
+}
+
+.menu li a{color:white; background:brown; text-decoration:none; padding:5px 50px; display:block;}
+
+.menu li a:hover{
+background:brown; 
+color:white; 
+ 
+}
+
+.menu li  ul{
+position:absolute; 
+top:25px; 
+left:0;
+background-color:#fff; 
+display:none;
+}	
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+border:px solid white; 
+display:block; 
+width:150px;
+}
+
+header {
+    padding: 1em;
+    color: white;
+    background-color: white;
+    clear: left;
+    text-align: center;
+}
+
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+p {
+	text-indent:3em;
+	letter-spacing: 0.5px;
+	word-spacing: 1.5px;
+	line-height: 1.5;
+	text-align: justify;
+	width: 600px;
+	padding: 0px 0px 0px 200px;
+}
+
+h4 {
+
+	font-style: normal;
+	font-size: 14px;
+	text-indent:3em;
+	letter-spacing: 0.5px;
+	word-spacing: 1.5px;
+	line-height: 1.5;
+	text-align: center;
+	float: center;
+
+}
